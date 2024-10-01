@@ -1,0 +1,210 @@
+!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Center everything on the page */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+    }
+
+    /* Remove default margins and padding */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Style the container */
+    .container {
+      background-color: white;
+      padding: 30px;
+      border: 3px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Style the text */
+    .container h1, .container p {
+      color: black;
+    }
+
+    /* Style the button */
+    button {
+      padding: 5px 10px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid black;
+    }
+
+    /* Style the text */
+    h2 {
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    /* Style the image */
+    img {
+      width: 400px;
+      height: 400px;
+    }
+
+    /* Style the buttons */
+    .buttons {
+      margin-top: 20px;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Style the image */
+    .rotate-image {
+      transform: rotate(270deg); /* Adjust the angle as needed */
+      width: 400px;
+      height: 400px;
+    }
+  </style>
+  <div id="song-info"></div>
+
+<script>
+  var sound = new Howl({
+    src: ['https://ia801809.us.archive.org/33/items/daft-punk-instant-crush/05.%20Daft%20Punk%20-%20Instant%20Crush.mp3'],
+    autoplay: true,
+    loop: true,
+    volume: 1.0
+  });
+
+  sound.play();
+
+  document.getElementById('song-info').innerHTML = 'Now playing: Daft Punk - Instant Crush';
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+<div id="song-info"></div>
+
+<style>
+  #song-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+  }
+<style>
+  #song-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+  }
+</style>
+
+<div id="song-info"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+<script>
+  var sound = new Howl({
+    src: ['https://ia801809.us.archive.org/33/items/daft-punk-instant-crush/05.%20Daft%20Punk%20-%20Instant%20Crush.mp3'],
+    autoplay: true,
+    loop: true,
+    volume: 1.0
+  });
+
+  sound.play();
+
+  document.getElementById('song-info').innerHTML = 'Now playing: Daft Punk - Instant Crush';
+</script>
+</script>
+</audio>
+</head>
+<body>
+  <div id="page1" class="page">
+    <div class="container">
+      <h1>HAPPY BIRTHDAY DINO SAMURAI PRINCESS!!!!!!!!!!!!</h1>
+      <p>this is my first time coding so dont judge me pls.</p>
+      <button onclick="showPage('page2')">NEXT!!!!!</button>
+    </div>
+  </div>
+
+  <div id="page2" class="page" style="display: none;">
+    <h2>OOOOOH my gosh you found a gift!!!!!!!!!!!!! what you do now?</h2>
+    <img src="https://assets.onecompiler.app/42tr8a4ff/42tr6wxhm/Untitled9_20240930161336.jpg" alt="Paris" width="400" height="400">
+    <div class="buttons">
+      <a href="https://www.youtube.com/watch?v=XFw_RaTWh7Q" class="previous">flip off bruh!</a>
+      <a href="#" onclick="showPage('page3')">OPEN!!!!!!!!!!!!!!!!!!</a>
+    </div>
+  </div>
+
+  <div id="page3" class="page" style="display: none;">
+    <h2>i ponder! i ponder reall good as to what it is!!!!!!!!!!!!!!!!!</h2>
+    <img src="https://assets.onecompiler.app/42tr8a4ff/42tr9etbd/Untitled10_20240930163650.png" alt="Rotated Image" class="rotate-image">
+    <div class="buttons">
+      <a href="#" onclick="showPage('page4')">whats inside bro!!!!!!</a>
+    </div>
+  </div>
+
+  <div id="page4" class="page" style="display: none;">
+    <h2> LETTER for YOU! open pleeeez </h2>!!!!!!!!!!!!!!!!</h2>
+    <img src="https://assets.onecompiler.app/42tr8a4ff/42tr9etbd/Dwarf_Scroll_I-1-320x320%20(1).png" alt="Rotated Image" class="rotate-image">
+    <div class="buttons">
+      <a href="#" onclick="showPage('page5')">HELL YEA!!!!!!</a>
+    </div>
+  </div>
+
+  <div id="page4" class="page" style="display: none;">
+  <h2> LETTER for YOU! open pleeeez </h2>!!!!!!!!!!!!!!!!</h2>
+  <img src="https://assets.onecompiler.app/42tr8a4ff/42tr9etbd/Dwarf_Scroll_I-1-320x320%20(1).png" alt="Rotated Image" class="rotate-image">
+  <div class="buttons">
+    <a href="#" onclick="showPage('page5')">***** YEA!!!!!!</a>
+  </div>
+  <div class="page-divider"></div>
+</div>
+
+<div id="page5" class="page" style="display: none;">
+  <img src="https://assets.onecompiler.app/42tr8a4ff/42ttwptp7/Screenshot%202024-10-01%20214218.png" alt="Image" style="width: 80%; height: auto; margin: 0 auto;">
+  <div class="buttons">
+    <a href="#" onclick="showPage('page1')">I LOVE YOU </a>
+  </div>
+</div>
+
+  <script>
+    function showPage(pageId) {
+      // Hide all pages
+      document.querySelectorAll('.page').forEach(page => page.style.display = 'none');
+
+      // Show the selected page
+      document.getElementById(pageId).style.display = 'block';
+    }
+  </script>
+</body>
+</html>
