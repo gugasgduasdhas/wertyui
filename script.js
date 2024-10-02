@@ -4,9 +4,7 @@ var sound = new Howl({
   loop: true,
   volume: 1.0
 });
-
 sound.play();
-
 document.getElementById('song-info').innerHTML = 'Now playing: Daft Punk - Instant Crush';
 
 function showPage(pageId) {
